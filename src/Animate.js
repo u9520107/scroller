@@ -57,7 +57,9 @@ var Animate = {
     }
 
     if (isNative) {
-      return requestFrame;
+      return function (callback, root) {
+        return requestFrame(callback, root);
+      }
     }
 
     var requests = {};
