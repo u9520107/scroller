@@ -1269,3 +1269,4 @@ for(var key in members) {
   Scroller.prototype[key] = members[key];
 }
 
+module.exports = Scroller;
