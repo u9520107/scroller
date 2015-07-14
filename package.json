@@ -1,0 +1,19 @@
+{
+  "name": "zynga-scroller",
+  "version": "1.0.0",
+  "description": "Zynga scroller as a module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "src/Scroller.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/u920107/scroller"
+  },
+  "author": "Jack Tzu-Chieh Huang <u9520107@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/u9520107/scroller/issues"
+  },
+  "homepage": "https://github.com/u9520107/scroller"
+}
