@@ -75,7 +75,7 @@ function Scroller(callback, options) {
   };
 
   for(var key in options) {
-    this[options][key] = options[key];
+    this.options[key] = options[key];
   }
 }
 
